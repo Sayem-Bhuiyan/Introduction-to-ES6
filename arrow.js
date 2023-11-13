@@ -24,3 +24,7 @@ const add2 = function(a, b){
 
 const add3 = (a , b) =>  a+ b;
 const add4 = (a, b, c, d) => a + b + c + d;
+
+const arr = [1, 2, 3, 4, 5]
+const double = arr.map(item => item * 2);
+console.log(double)
